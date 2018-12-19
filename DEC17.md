@@ -9,4 +9,13 @@ Or use yarn test --coverage --silent
 
 ### check value
 `    expect(wrapper.find('Text').prop('children')).toBe('CONTENT')`
-`
+
+### Call a prop function, eg. onPress()
+`     wrapper
+      .find(Text)
+      .props()
+      .onPress()`
+and then do something similar to:
+`    expect(spy1).toHaveBeenCalledWith(link)`
+
+
