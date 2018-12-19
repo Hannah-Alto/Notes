@@ -4,3 +4,9 @@
 `Warning: Failed prop type: CustomText: prop type 'styleOverride' is invalid; it must be a function, usually from the 'prop-types' package, but received 'object'.`
 
 
+Or use yarn test --coverage --silent
+
+
+### check value
+`    expect(wrapper.find('Text').prop('children')).toBe('CONTENT')`
+`
