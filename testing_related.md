@@ -7,7 +7,7 @@
 Or use yarn test --coverage --silent
 
 
-### 2. check value
+### 2. Check value
 `    expect(wrapper.find('Text').prop('children')).toBe('CONTENT')`
 
 ### 3. Call a prop function, eg. onPress()
