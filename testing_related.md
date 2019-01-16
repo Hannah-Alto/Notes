@@ -15,4 +15,6 @@ Or use yarn test --coverage --silent
 and then do something similar to:
 `    expect(spy1).toHaveBeenCalledWith(link)`
 
+### 4. Export the component without HOC would save your test
 
+     - can tell from the snapshot, the component name would be something anomynous.
